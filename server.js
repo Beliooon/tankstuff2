@@ -12,7 +12,7 @@ app.get('/html5game',function(req,res){
 });
 
 app.use('/game',express.static(__dirname + '/game'));
-serv.listen(process.env.PORT|| 2000);
+serv.listen(process.env.PORT||52201);
 
 console.log("Server successfully started.");
 
